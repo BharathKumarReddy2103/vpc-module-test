@@ -3,7 +3,7 @@ module "vpc" {
     # source = "git::https://github.com/BharathKumarReddy2103/terraform-aws-vpc.git?ref=main"
     project = "roboshop"
     environment = "dev"
-    # public_subnet_cidrs = ["10.0.1.0/24", "10.0.2.0/24"]
+    public_subnet_cidrs = ["10.0.1.0/24", "10.0.2.0/24"]
     # project = var.project
     # environment = var.environment
     # public_subnet_cidrs = var.public_subnet_cidrs
